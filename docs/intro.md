@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# DongshanPI
+# 韦东山嵌入式Linux开发系列课程
 
- **从DongshanPI开启您的嵌入式之旅**.
+ **韦东山嵌入式Linux开发系列课程**.
 

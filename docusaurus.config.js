@@ -21,7 +21,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: '100askTeam', // Usually your GitHub org/user name.
-  projectName: 'linuxboard-docs', // Usually your repo name.
+  projectName: 'linux-docs', // Usually your repo name.
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -44,14 +44,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/100askTeam/linuxboard-docs/tree/main/',
+            'https://github.com/100askTeam/linux-docs/tree/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/100askTeam/linuxboard-docs/tree/main/',
+            'https://github.com/100askTeam/linux-docs/tree/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -66,7 +66,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: '韦东山嵌入式Linux开发系列课程',
+        title: '韦东山嵌入式Linux系列课程',
         logo: {
           alt: '东山PI',
           src: 'img/logo.svg',
@@ -74,58 +74,12 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 't113s3Sidebar',
+            sidebarId: 'LearnLinux',
             position: 'left',
-            label: 'T113s3-Industrial',
+            label: '嵌入式Linux学习指南',
           }, 
           {
-            type: 'docSidebar',
-            sidebarId: 't113s3proSidebar',
-            position: 'left',
-            label: 'T113s3-Pro',
-          },         
-          {
-            type: 'docSidebar',
-            sidebarId: 'd1hdSidebar',
-            position: 'left',
-            label: 'D1h-DualDisplay',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'd1scvbsSidebar',
-            position: 'left',
-            label: 'D1s-CVBS',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 't113iSidebar',
-            position: 'left',
-            label: 'T113i-Industrial',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 't113s3sdnandSidebar',
-            position: 'left',
-            label: 'T113s3-SdNand',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'r818dshanpirosxSidebar',
-            position: 'left',
-            label: 'R818-DshanPI-ROSx',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'h616Sidebar',
-            position: 'left',
-            label: 'H616-YuzukiHD-Chameleon',
-          },         
-          {
-            type: 'localeDropdown',
-            position: 'right',
-          },
-          {
-            href: 'https://github.com/100askTeam/linuxboard-docs',
+            href: 'https://github.com/100askTeam/linux-docs',
             label: 'GitHub',
             position: 'right',
           },
