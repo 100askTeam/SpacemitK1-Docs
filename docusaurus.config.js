@@ -8,7 +8,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'DshanPI Spacemit RISC-V AI',
+  title: 'DshanPI Spacemit RISC-V Linux',
   tagline: 'DshanPI Linux Boards Docs.',
   favicon: 'img/favicon.ico',
 
