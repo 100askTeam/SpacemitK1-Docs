@@ -8,12 +8,12 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '韦东山嵌入式Linux开发系列课程',
+  title: 'DshanPI Spacemit RISC-V AI',
   tagline: 'DshanPI Linux Boards Docs.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://linux.100ask.net',
+  url: 'https://spacemit.100ask.net',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -21,7 +21,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: '100askTeam', // Usually your GitHub org/user name.
-  projectName: 'linux-docs', // Usually your repo name.
+  projectName: 'SpacemitK1-Docs', // Usually your repo name.
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -44,14 +44,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/100askTeam/linux-docs/tree/main/',
+            'https://github.com/100askTeam/SpacemitK1-Docs/tree/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/100askTeam/linux-docs/tree/main/',
+            'https://github.com/100askTeam/SpacemitK1-Docs/tree/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -79,7 +79,7 @@ const config = {
             label: '嵌入式Linux学习指南',
           }, 
           {
-            href: 'https://github.com/100askTeam/linux-docs',
+            href: 'https://github.com/100askTeam/SpacemitK1-Docs',
             label: 'GitHub',
             position: 'right',
           },
